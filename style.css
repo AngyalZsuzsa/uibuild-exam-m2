@@ -39,6 +39,7 @@ select {
 body {
     background-color: #f7e4d4;
     font-family: 'EB Garamond', serif;
+    font-weight: 500;
     color: #467745;
 }
 
@@ -63,6 +64,9 @@ h1 {
     opacity: 0.4;
 }
 
+input[name="comment"]::placeholder {
+    
+}
 
 input {
     margin-top: 30px;
@@ -87,8 +91,11 @@ input[type="checkbox"] {
     margin-right: 20px;
     width: 20px;
     height: 20px;
-    font-size: 16px;
-    font-weight: 500;
+}
+
+label {
+    font-size: 20px;
+    
 }
 
 span {
@@ -110,6 +117,7 @@ button {
     font-family: 'EB Garamond', serif;
     font-size: 21px;
     letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 520px) {
