@@ -65,7 +65,8 @@ h1 {
 }
 
 input[name="comment"]::placeholder {
-    
+    position: absolute;
+    top: 10%;
 }
 
 input {
